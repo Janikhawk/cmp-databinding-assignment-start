@@ -13,5 +13,7 @@
         <li>Style the element (e.g. paragraph) holding your output text differently in both components</li>
       </ol>
     </div>
+    <app-game-control (startEvent)="start($event)" (stopEvent)="stop()"></app-game-control>
   </div>
+  <ng-template #templateRef></ng-template>
 </div>
